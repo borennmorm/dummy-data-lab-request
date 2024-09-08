@@ -1,0 +1,118 @@
+{
+  "requests": [
+    {
+      "request_id": 5001,
+      "lab_info": {
+        "lab_id": 1,
+        "lab_name": "Lab 01",
+        "location": {
+          "building_name": "Building 1",
+          "floor": 2
+        },
+        "availability": "available"
+      },
+      "schedule_info": [
+        {
+          "session_id": 1,
+          "time_slot": "07:00 - 08:30 AM",
+          "session_number": 1,
+          "session_status": "active"
+        },
+        {
+          "session_id": 2,
+          "time_slot": "08:50 - 10:20 AM",
+          "session_number": 2,
+          "session_status": "active"
+        }
+      ],
+      "user_info": {
+        "user_id": 1,
+        "full_name": "John Doe",
+        "contact_details": {
+          "phone_number": "098748736"
+        },
+        "academic_details": {
+          "faculty_name": "Science and Technology",
+          "department_name": "Computer Science",
+          "role": "teacher"
+        },
+        "user_status": "active"
+      },
+      "request_details": {
+        "request_timestamp": "2024-09-10 20:00",
+        "course_info": {
+          "major": "Information Technology",
+          "subject": "Data Structures and Algorithms",
+          "student_batch": "Generation 18"
+        },
+        "additional_requirements": {
+          "software_needed": ["vscode"],
+          "number_of_students": 35,
+          "additional_notes": "Some notes here"
+        },
+        "approval_info": {
+          "approval_status": "approved",
+          "approved_by": "Dean",
+          "approval_notes": "Approved with conditions"
+        }
+      }
+    },
+    {
+      "request_id": 5002,
+      "lab_info": {
+        "lab_id": 2,
+        "lab_name": "Lab 02",
+        "location": {
+          "building_name": "Building 2",
+          "floor": 1
+        },
+        "availability": "unavailable"
+      },
+      "schedule_info": [
+        {
+          "session_id": 3,
+          "time_slot": "09:00 - 10:30 AM",
+          "session_number": 1,
+          "session_status": "active"
+        },
+        {
+          "session_id": 4,
+          "time_slot": "11:00 AM - 12:30 PM",
+          "session_number": 2,
+          "session_status": "pending"
+        }
+      ],
+      "user_info": {
+        "user_id": 2,
+        "full_name": "Jane Smith",
+        "contact_details": {
+          "phone_number": "097654321"
+        },
+        "academic_details": {
+          "faculty_name": "Engineering",
+          "department_name": "Mechanical Engineering",
+          "role": "assistant professor"
+        },
+        "user_status": "active"
+      },
+      "request_details": {
+        "request_timestamp": "2024-09-11 15:00",
+        "course_info": {
+          "major": "Mechanical Engineering",
+          "subject": "Thermodynamics",
+          "student_batch": "Generation 20"
+        },
+        "additional_requirements": {
+          "software_needed": ["MATLAB", "SolidWorks"],
+          "number_of_students": 30,
+          "additional_notes": "Ensure projector is functional"
+        },
+        "approval_info": {
+          "approval_status": "pending",
+          "approved_by": null,
+          "approval_notes": "Awaiting department head review"
+        }
+      }
+    }
+  ]
+}
